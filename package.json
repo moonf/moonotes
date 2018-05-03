@@ -1,0 +1,20 @@
+{
+  "name": "moonotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js && micro",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.0.16",
+    "telegraf": "^3.20.0",
+    "micro": "latest"
+  }
+}
