@@ -22,10 +22,10 @@ bot.command('/add', ctx => {
     description: message.text.split(';\n')[1],
     type: message.text.split(';\n')[2].toLowerCase(),
     author: message.from.id,
-  })
+  });
 
   myNote.save((err, mess) => {
-    ctx.reply('Saved! ✅')
+    ctx.reply('Saved! ✅');
   });
 });
 
